@@ -1,0 +1,11 @@
+/* External css */
+#box{
+    width:200px;
+    height:200px;
+    background-color: aqua;
+    margin:10px;
+    text-align: center;
+    padding: 20px;
+    color:black;
+}
+/* External css will be overridden by Internal and Inline css */

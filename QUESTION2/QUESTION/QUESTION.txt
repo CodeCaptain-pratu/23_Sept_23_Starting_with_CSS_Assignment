@@ -1,0 +1,17 @@
+QUESTION:Build an HTML page with multiple paragraphs, each assigned a unique class name. Write CSS rules using
+class selectors to apply distinct styling to each paragraph. Follow the BEM naming convention and
+explain how you've named the classes=
+Answer:BEM stands for (Block Element Modifier)
+1) Block :The main component.
+2) Element :Represent the part of Block.
+3) Modifier :Represent a variation or modification of the element's
+style or behavior
+
+
+Benifits of using BEM:
+1) Consistency: The naming convention is predictable and easy to 
+understand
+2) Modularity:Styles are scoped to specific blocks and elements, 
+reducing the risk of conflicts.
+3) Scalability: It's easy to extend and maintain styles for large
+projects.

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM Naming Convention</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BEM naming convention</h1>
+    <!-- content represent the container for all paragraphs -->
+    <div class="content">
+        <p class="content_paragraph content_paragraph--intro">
+            This is introduction paragraph.It provides an overview.
+            <!--content_paragraph is an element within the content
+            block  -->
+            <!-- content_paragraph--intro is a modifier for the content_paragraph. It styles this part only -->
+
+        </p>
+        <p class="content_paragraph content_paragraph--details">
+            This is details paragraph.It contains additional Information.
+            <!-- content_paragraph--details is a modifier for the content_paragraph. It styles this part only -->
+        </p>
+        <p class="content_paragraph content_paragraph--highlight">
+            This is highlighted paragraph. It draws special attention. 
+            <!-- content_paragraph--highlight is a modifier for the content_paragraph.It styles this part only -->
+
+        </p>
+        <p class="content_paragraph content_paragraph--conclusion">
+            This is conclusion paragraph. It summarizes the content.
+            <!-- content_paragraph--conclusion is a modifier for the content_paragraph. It styles this part only -->
+
+        </p>
+    </div>
+</body>
+</html>

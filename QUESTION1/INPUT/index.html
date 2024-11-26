@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ways to add css</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        #box{
+            color:blue;
+            background-color: pink;
+        }
+        /* Internal css will be overriden by Inline css and 
+        Internal css overrides External css */
+    </style>
+</head>
+<body>
+    <div id="box" style="color:red;background-color: yellow;">
+        <!-- Inline css will override both Internal and External
+         css for the same properties. -->
+        Inline css Example</div>
+    <div id="box">Internal css Example</div>
+    <div id="box">External css Example</div>
+    <!-- Priority order for conflicting css: 
+     1) Inline css
+     2) Internal css
+     3) External css
+     -->
+    <!-- In above example we have three div with same id, we have 
+     given "color:black" and "backgrounde-color:aqua" using external 
+     css but we are not able to see it in the output because of 
+     external css is overriden by internal css which we have 
+     given in the style tag which is our Internal css where we have 
+     given the "color:blue" and "background-color:pink" and we can see 
+     it in the output for the 2nd and 3rd div now if we do not use 
+     the Inline css for the 1st div then the first div also look like 
+     the 2nd and 3rd div, It will also take the properties given by 
+     Internal css, But Inline css has the higher precedence that is
+     why when we give Inline css to the first div It is applicable 
+     to only first div and It overrides the Both Internal and External 
+     css as well.-->
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+h1
+{
+    text-align: center;
+    text-transform: capitalize;
+}
+/* Base style for content block */
+.content{
+    max-width:600px;
+    margin:0 auto;
+}
+/* Base style for all paragraphs in the content block */
+.content_paragraph{
+    margin:15px 0;
+    line-height: 1.6;
+}
+.content_paragraph--intro{
+    font-size: 1.2em;
+    color:#333;
+    font-weight: bold;
+}
+.content_paragraph--details{
+    font-size: 1em;
+    color:#555;
+}
+.content_paragraph--highlight{
+    font-size: 1em;
+    background-color: #ffeb3b;
+    padding: 10px;
+    border-left:4px solid #fbc03d;
+    color:#000;
+}
+.content_paragraph--conclusion{
+    font-size: 1em;
+    color:#00695c;
+    font-style: italic;
+    border-top:1px dashed #004d40;
+    padding-top: 10px;
+}
